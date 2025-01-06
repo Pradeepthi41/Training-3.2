@@ -1,1 +1,95 @@
-I am siddu
+1.variables
+---python,java
+--variables are like containers used to store the data/values/literals(data types)
+--any kinds of data
+--variable names 
+types of variable
+***********
+1.var
+2.let
+3.const
+
+example--
+             var username =    "siddu";
+              |     |             |
+         variable  identifiers    value/data
+-
+code--
+       a=5
+       a=55
+       print(a+a)
+result--
+       110 
+(latest values will be considered)
+
+--variables can starts with letters,_,$ also but not numbers.
+
+
+* In your browser if we want to run javascript file or css file we must connet those files with html file.
+
+so then create a html file(ex-index.html)
+
+*why DOCTYPE is used in html.file
+   -to make sure that version 5 (to specifies the version)
+   -end user can not see the header session.
+
+*console.log() : it is a method to print the output in  developer console.
+*document.writeln() : it is a method to print the output on the UI.
+
+
+*what is data types?
+-datatypes used to specify what kind of data stored in the variable.
+
+types of data types:-
+*********************
+1.primitive data types:-
+- they are built-in
+- immutable
+- they can store only a single values
+    -string
+    -number
+    -boolean
+    -undefined
+    -null
+    -symbol
+    -bigint
+
+2.non-primtitive data types:-
+- they are user defined
+- mutable
+- they can store multiple values.
+    -array
+    -functions
+    -objects
+    -math , date , json
+
+Strings:-
+**********
+-sequence of characters enclosed within "" , '' , ``(template literals/backtiks)
+
+number:-
+- -2^53-1 to +2^53-1 upto this range we consider as number data type.
+- beyond this range it will be bigint.
+
+boolean :- true / false.
+
+undefined:- variable is declared but not initialized with the value.
+
+null:-null is empty value / absence of an object.
+- return type of null is "object".
+
+bigint:- any value exceed the range of number dattype we consider that as bigint.
+- any value sufix with "n" will be bigint.
+
+
+
+
+
+
+
+
+
+
+
+
+

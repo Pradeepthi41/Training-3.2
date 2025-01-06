@@ -1,0 +1,61 @@
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+ans:-
+a. Primitive Data Types
+Primitive data types are the built-in data types provided by JavaScript. They represent single values and are not mutable. JavaScript supports the following primitive data types:
+
+1. Number:
+Number data type in JavaScript can be used to hold decimal values as well as values without decimals.
+example-
+    let x = 250;
+    let y = 40.5;
+    console.log("Value of x=" + x);
+    console.log("Value of y=" + y);
+    output-
+    Value of x=250
+    Value of y=40.5
+
+  2 String:
+The string data type in JavaScript represents a sequence of characters that are surrounded by single or double quotes.
+
+  let str = 'Hello All';
+let str1 = "Welcome to my new house";
+console.log("Value of str=" + str);
+console.log("Value of str1=" + str1);
+
+3 Undefined:
+This means that a variable has been declared but has not been assigned a value, or it has been explicitly set to the value `undefined`.
+example-
+let x;
+console.log(x); // Outputs: undefined
+
+4 Boolean:
+The boolean data type can accept only two values i.e. true and false.
+
+5 Null:
+This data type can hold only one possible value that is null.
+
+6 BigInt:
+BigInt data type can represent numbers greater than 253-1 which helps to perform operations on large numbers. The number is specified by writing ‘n’ at the end of the value
+
+
+b. Non-primitive Data Types
+Non-primitive data types, also known as reference types, are objects and derived data types. They can store collections of values or more complex entities. The two key non-primitive data types in JavaScript are:
+
+Below is a list of Non-primitive data types.
+
+1 Object:
+An object in Javascript is an entity having properties and methods. Everything is an object in javascript.
+
+2 Array:
+With the help of an array, we can store more than one element under a single name.
+example-
+let a = new Array();
+    let b = new Array(10);
+    let d = new Array(1, 2, 3, "Hello");
+    console.log("value of a=" + a);
+    console.log("value of b" + b);
+    console.log("value of d=" + d);
+    output-
+          value of a=
+          value of b,,,,,,,,,
+          value of d=1,2,3,Hello
