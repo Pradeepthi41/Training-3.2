@@ -1,6 +1,6 @@
 // console.log(10);
 
- document.writeln("hello ");
+ document.writeln("javascript ");
 
 // var a =10;
 //     a="Hi"; //? re-intitalization
