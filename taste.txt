@@ -139,7 +139,12 @@ Decision making statments:-
 -switch
 - ternary
 
-prompt():- this method is used to collect the data from the users.
+prompt():- this method is used to collect the data from the users. 
+
+Looping statement:-
+*******************
+--to execute the block of code repeatedly.
+
 
 
 
