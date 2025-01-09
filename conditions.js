@@ -82,38 +82,38 @@
 
 
     // Get user inputs
-    let a = parseInt(prompt("Enter the first value:"));
-    let b = parseInt(prompt("Enter the second value:"));
-    let c = parseInt(prompt("Enter the third value:"));
+    // let a = parseInt(prompt("Enter the first value:"));
+    // let b = parseInt(prompt("Enter the second value:"));
+    // let c = parseInt(prompt("Enter the third value:"));
 
     // Using If-Else Ladder to compare
-    if (a > b && a > c) {
-        console.log(a + " is the greatest.");
-    } else if (b > a && b > c) {
-        console.log(b + " is the greatest.");
-    } else if (c > a && c > b) {
-        console.log(c + " is the greatest.");
-    } else if (a === b && b === c) {
-        console.log("All values are equal.");
-    } else {
-        console.log("There is a tie between some values.");
-    }
+    // if (a > b && a > c) {
+    //     console.log(a + " is the greatest.");
+    // } else if (b > a && b > c) {
+    //     console.log(b + " is the greatest.");
+    // } else if (c > a && c > b) {
+    //     console.log(c + " is the greatest.");
+    // } else if (a === b && b === c) {
+    //     console.log("All values are equal.");
+    // } else {
+    //     console.log("There is a tie between some values.");
+    // }
 
     // Using Switch statement to compare
-    switch (true) {
-        case (a > b && a > c):
-            console.log(a + " is the greatest.");
-            break;
-        case (b > a && b > c):
-            console.log(b + " is the greatest.");
-            break;
-        case (c > a && c > b):
-            console.log(c + " is the greatest.");
-            break;
-        case (a === b && b === c):
-            console.log("All values are equal.");
-            break;
-        default:
-            console.log("There is a tie between some values.");
-    }
+    // switch (true) {
+    //     case (a > b && a > c):
+    //         console.log(a + " is the greatest.");
+    //         break;
+    //     case (b > a && b > c):
+    //         console.log(b + " is the greatest.");
+    //         break;
+    //     case (c > a && c > b):
+    //         console.log(c + " is the greatest.");
+    //         break;
+    //     case (a === b && b === c):
+    //         console.log("All values are equal.");
+    //         break;
+    //     default:
+    //         console.log("There is a tie between some values.");
+    // }
 
