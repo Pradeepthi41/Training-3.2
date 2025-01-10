@@ -144,7 +144,70 @@ prompt():- this method is used to collect the data from the users.
 Looping statement:-
 *******************
 --to execute the block of code repeatedly.
+for loop :-
+-will be used when the exact iteration count is known.
+- minimum iteration count is "0"
+synatx :-  for(initialization ; condition; updation){
+            //statements
+            }
+while :-
+- will be used when we dont know the iteration count.
+- minimum iteration count is "0"
+syntax :-  while(condition){
+                //statements
+            }
+do-while:-
+- will be used when we dont know the iteration count.
+- minimum iteration count is "1"
+syntax :-  do{
+            //statements
+            }while(condition)
 
+what are entry controlled and exit controlled loops?
+- entry controlled loops - for loop , while loop
+- exit controlled loops - do-while loop
+
+-what is the difference between "break" and "continue" keywords.
+break - when condition satisfied it will terminate the loop
+permenently
+
+continue-when the condition satisfies it will skip that particular
+condition.
+
+functions:-
+************
+- function is a block of code used to execute specific task assigned to it.
+- function is a non-primitive data type.
+- functions can be reusable.
+
+syntax :-    function function_name(optional parameters){// function decalration
+                    //statements
+                    }
+                function_name(arguments);
+
+Types of functions:-
+*********************
+1.named function :- function which is having a name and invoked with the same name.
+2.anonymus function :-function which doesnot have  a name to declare and to invoke.
+3.function expression:- anonymus function decalration is assigned to a variable 
+    and invoked with the same variable.
+4.Immediate invoke function expression(IIFE):-
+    - once the function is created immediatley it should be invoked.
+    - it can be executed only once.
+
+5.Arrow function:-it is used to concise the normal function syntax.
+syntax :-  ()=>{}; in es6 version 
+- arrow function is similar to anonymus function.
+6.Higher order function
+7.Callback function
+- closure
+
+
+Note :- 
+- current version of javascript is es14.
+- es6 - is stable version
+es - ECMA script
+ECMA - european computer manufacturing association
 
 
 
