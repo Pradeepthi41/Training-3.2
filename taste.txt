@@ -220,7 +220,7 @@ ECMA - european computer manufacturing association
 
 return statement:-
 - it will return either expression or variables to future use.
-
+-stops the stream of flow.
 implicit return :- returns without using a "return" keyword manually.
 
 explicit return :- returns using "return" keyword manually
@@ -236,6 +236,7 @@ ex :-
 
 
 map and forEach difference
+***************************
 map:- it is used to iterrate the values of an array one by one.
 - it will return new Array from original array.
 
@@ -305,7 +306,9 @@ syntax :-  setInterval(Callbackfn , timeout);
     1.pending state
     2.fulfilled state
     3.rejected state
-
+                                 success   failures
+                                   |           |
+                                   |           |
 syntax :-  let p =  new Promise((resolve , reject)=>{});
 
 - the actual way of executing the promise is instance methods,
@@ -314,7 +317,9 @@ syntax :-  let p =  new Promise((resolve , reject)=>{});
         3.finally() :- once promise is settled it will print the value.
 
 4.async & await
-note :- by default , javascript is synchronous(single threaded).
+note :- by default , javascript is synchronous(single threaded).  
+
+[readStream will be in the form of json]
 
 
 
