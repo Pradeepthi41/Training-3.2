@@ -358,7 +358,7 @@ innerHTML :- it is a property used to add /remove the content along with tags.
 
 div.test*3{div$}
 
-vents in DOM:-
+Events in DOM:-
 ***************
 - Events are nothing but actions performed on html elements.
 - events are of click events , mouse events , key events.
@@ -366,6 +366,16 @@ vents in DOM:-
 click events :- onclick , ondblclick , onsubmit , onchange
 mouse events :- mouseover , mouseleave
 keyevents:- keydown , keyup , keypress(depricated).
+
+
+
+
+
+dynamic creation of html element from javascript:-
+**************************************************
+- to create dynamic element in javascript we have a method called as "document.createElement()".
+- to create an attributes we have a method called as "setAtttribute()".
+- to remove attribute we have "removeAttribute()".
 
 
 
